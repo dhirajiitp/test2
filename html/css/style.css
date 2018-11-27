@@ -1,0 +1,61 @@
+img {
+    background-color: blueviolet;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    width: 200px;
+    height: 120px;
+}
+
+
+/* resize images */
+
+.container img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.container input {
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    float: right;
+    right: 10%;
+}
+
+div.show-image {
+    position: absolute;
+    float: left;
+    margin: 5px;
+}
+
+div.show-image:hover img {
+    opacity: 0.5;
+}
+
+div.show-image:hover input {
+    display: block;
+}
+
+div.show-image input {
+    position: absolute;
+    display: none;
+    height: 30px;
+    width: 30px;
+    border: green solid 2px;
+}
+
+div.show-image input.update {
+    top: 0;
+    right: 35px;
+}
+
+div.show-image input.delete {
+    top: 0;
+    right: 0;
+}

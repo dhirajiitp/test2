@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+
+
+    <br>
+    <h2>Hover on the Image to see the Buttons</h2>
+    <div class="show-image">
+        <img src="image/vk1.jpg" id='vk' />
+        <input class="update" type="button" value="Update" onclick="addElement2('vk','nora2.jpg')" />
+        <input class="delete" type="button" value="Delete" onclick="removeElement('vk')" />
+    </div>
+    <p id="txt "></p>
+    <script>
+        function myfunc1() {
+            var t1 = "Dhiraj "
+            var t2 = "Chakraborty "
+            var t3 = t1 + t2
+            document.getElementById("txt ").innerHTML = t3
+        }
+
+        function myfunc2() {
+            document.getElementById("txt ").innerHTML = " "
+        }
+
+        function addElement(parentId, elementTag, elementId, html) {
+            // Adds an element to the document
+            var p = document.getElementById(parentId);
+
+            var newElement = document.createElement(elementTag);
+            newElement.setAttribute('id', elementId);
+            newElement.innerHTML = html;
+            p.appendChild(newElement);
+        }
+
+        function addElement2(parentId, img_src) {
+            // Adds an element to the document
+
+            var x = document.getElementById(parentId);
+            var imgs = x.getElementsByTagName("img");
+            imgs[0].src.replace = "image/nora2.jpg";
+        }
+
+
+        function removeElement(elementId) {
+            // Removes an element from the document
+            var element = document.getElementById(elementId);
+            element.parentNode.removeChild(element);
+        }
+    </script>
+
+</body>
+
+</html>

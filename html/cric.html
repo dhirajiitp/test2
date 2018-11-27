@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta charset="utf-8">
+    <script>
+        var is_mobile = /symbian|tizen|midp|uc(web|browser)|MSIE (5.0|6.0|7.0|8.0)|tablet/i.test(navigator.userAgent);
+        if (is_mobile && window.location.hostname != "www1.cricbuzz.com") window.location.hostname = "m.cricbuzz.com";
+    </script>
+
+    <link rel="stylesheet" href="./css/s.css">
+    <script>
+        function getCookie(c_name) {
+            var i, x, y, ARRcookies = document.cookie.split(";");
+            for (i = 0; i < ARRcookies.length; i++) {
+                x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+                y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+                x = x.replace(/^\s+|\s+$/g, "");
+                if (x == c_name) {
+                    return unescape(y);
+                }
+            }
+        }
+        var cbads_value = getCookie("cbzads");
+        if (cbads_value != null && cbads_value.indexOf('IN|AS') >= 0) {
+            document.write("<style>.cb-geo-in-50{height:50px}</style>")
+        }
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="//i.cricketcb.com/statics/site/images/cric_ball.ico" />
+    <meta name="google-signin-client_id" content="125255339112-d594jen12o0j854sufu8jfn2gbbnaskj.apps.googleusercontent.com">
+    <LINK REL="apple-touch-icon" href="//i.cricketcb.com/statics/site/images/apple-touch-icon.png" />
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/cricbuzz/opljecakjchbhhikbeifamamnpcdbgem" />
+    <title itemprop="name">Cricket Score, Schedule, Latest News, Stats & Videos | Cricbuzz.com</title>
+    <meta name="description" itemprop="description" content="Get Live Cricket Score, Scorecard, Schedules of International &amp; Domestic cricket matches along with Latest News and ICC Cricket Rankings of Players on Cricbuzz.">
+    <link rel="alternate" href="android-app://com.cricbuzz.android/http/www.cricbuzz.com/">
+    <link rel="alternate" href="//m.cricbuzz.com/" media="only screen and (max-width: 640px)">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google-site-verification" content="google89fd37b1258ef4b9.html">
+    <meta name="p:domain_verify" content="fd560568b43f31382de30f628c8430bd">
+    <meta name="msvalidate.01" content="A509FA8BAE50018F9DF2553AEDEDF77B">
+    <meta property="og:title" content="Cricket Score, Schedule, Latest News, Stats &amp; Videos">
+    <meta property="og:description" content="Get Live Cricket Score, Scorecard, Schedules of International &amp; Domestic cricket matches along with Latest News and ICC Cricket Rankings of Players on Cricbuzz.">
+    <meta property="fb:app_id" content="30119633160">
+    <meta property="og:site_name" content="Cricbuzz">
+    <meta property="twitter:title" content="Cricket Score, Schedule, Latest News, Stats &amp; Videos">
+    <meta property="twitter:description" content="Get Live Cricket Score, Scorecard, Schedules of International &amp; Domestic cricket matches along with Latest News and ICC Cricket Rankings of Players on Cricbuzz.">
+    <meta name="twitter:site" content="@cricbuzz">
+    <meta name="twitter:domain" content="cricbuzz.com">
+    <meta name="twitter:app:name:iphone" content="Cricbuzz">
+    <meta name="twitter:app:id:iphone" content="360466413">
+    <meta name="twitter:app:name:googleplay" content="Cricbuzz">
+    <meta name="twitter:app:id:googleplay" content="com.cricbuzz.android">
+    <meta name="twitter:widgets:csp" content="on">
+    <meta property="fb:pages" content="178697151159" />
+    <meta name="keywords" content="">
+    <meta name="news_keywords" content="">
+    <link rel="canonical" href="https://www.cricbuzz.com">
+    <meta name="msapplication-config" content="none" />
+    <script>
+        var PAGE_NAME = "cb-homepage";
+        var CBQueue = CBQueue || [];
+        var CBQueueOnLoad = CBQueueOnLoad || []; /*CBQueue.push(function(){roadblock(2,{country:["US","CA", "ZA", "AU"], continent:["EU"]});});*/
+        CBQueue.push(function() {
+            roadblock(2, {
+                country: ["US"]
+            });
+        });
+        _udn = "cricbuzz.com";
+    </script>
+    <script>
+        (function(w) {
+            "use strict";
+            var loadCSS = function(href, before, media) {
+                var doc = w.document;
+                var ss = doc.createElement("link");
+                var ref;
+                if (before) {
+                    ref = before;
+                } else {
+                    var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
+                    ref = refs[refs.length - 1];
+                }
+                var sheets = doc.styleSheets;
+                ss.rel = "stylesheet";
+                ss.href = href;
+                ss.media = "only x";
+                ref.parentNode.insertBefore(ss, (before ? ref : ref.nextSibling));
+                var onloadcssdefined = function(cb) {
+                    var resolvedHref = ss.href;
+                    var i = sheets.length;
+                    while (i--) {
+                        if (sheets[i].href === resolvedHref) {
+                            return cb();
+                        }
+                    }
+                    setTimeout(function() {
+                        onloadcssdefined(cb);
+                    });
+                };
+                ss.onloadcssdefined = onloadcssdefined;
+                onloadcssdefined(function() {
+                    ss.media = media || "all";
+                });
+                return ss;
+            };
+            if (typeof module !== "undefined") {
+                module.exports = loadCSS;
+            } else {
+                w.loadCSS = loadCSS;
+            }
+        }(typeof global !== "undefined" ? global : this));
+        loadCSS("//s.cricketcb.com/site/style.201809251005.css");
+    </script><noscript><link rel="stylesheet" type="text/css" href="//s.cricketcb.com/site/style.201809251005.css"></noscript></head>
+
+<body>
+    <a href="https://plus.google.com/104502282508811467249" rel="publisher"></a>
+    <a id="ad-skin" target="_blank" href="Javascript:void(0)" class="cb-skin-ads-link cb-skin-ads-link-fixed ad-skin"></a><a href="Javascript:void(0)" class="cb-skin-ads-close cb-font-18 ad-skin-close" style="position:fixed; z-index:1001; color:#FFF; background:#000; padding:2px 5px; right:2px;">&#x2716;</a>
+    <header id="top" style="z-index: 1000;position: relative;padding-top:10px;width:980px;margin:0 auto;" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="container">
+            <div id="leaderboard" class="ad-unit text-center center-block" style="min-height:90px;margin-bottom:10px;"></div>
+            <div id="countdown" class="ad-unit" style="margin:-10px 15px 0px;float:right;position:absolute;"></div>
+            <div class="toi-branding toi-referral"></div>
+            <nav class="cb-nav cb-col cb-col-100" id="cb-main-menu">
+                <a href="/" target="_self" class="cb-hm-text"><img itemprop="image" height="30" width="101" style="bottom: -4px; position: relative;" alt="Cricbuzz Logo" title="Cricbuzz Logo" src="//i.cricketcb.com/statics/site/images/cbz-logo.png"></a><a class="cb-hm-mnu-itm" target="_self" href="/cricket-match/live-scores"
+                    title="Live Cricket Score">Live Scores Sameer</a>
+                <a class="cb-hm-mnu-itm" target="_self" href="/cricket-schedule/series" title="Cricket Schedule">Schedule</a>
+                <a class="cb-hm-mnu-itm" target="_self" href="/cricket-scorecard-archives" title="Cricket Scorecard Archives">Archives</a>
+                <div class="cb-subnav cb-hm-mnu-itm feature-button cursor-pointer" id="newsDropDown">
+                    <a class="text-white" target="_self" href="/cricket-news">News</a><span class="cb-caret-down"></span>
+                    <nav class="cb-sub-navigation">
+                        <a class="cb-subnav-item" target="_self" href="/cricket-news" title="Latest Cricket News">All Stories</a>
+                        <a class="cb-subnav-item" target="_self" href="/cricket-news/latest-news" title="Latest Cricket News">Latest News</a>
+                        <a class="cb-subnav-item" target="_self" href="/cricket-news/info/" title="Latest Cricket Topics">Topics</a>
+                        <a class="cb-subnav-item" target="_self" href="/cricket-news/editorial/spotlight" title="Cricket Editorials and Specials">Spotlight</a>
+                        <a class="cb-subnav-item" target="_self" href="/cricket-news/editorial/editorial-list" title="Latest Cricket Opinions & Editorials">Opinions</a>
+                        <a class="cb-subnav-item" target="_self" href="/cricket-news/editorial/specials" title="Latest Cricket Specials">Specials</a>
+                        <a class="cb-subnav-item" target="_self" href="/cricket-news/editorial/stats-analysis" title="Latest Cricket Stats & Analysis">Stats & Analysis</a>
+                        <a class="cb-subnav-item" target="_self" href="/cricket-news/editorial/interviews" title="Latest Cricket Player Interviews">Interviews</a>
+                        <a class="cb-subnav-item" target="_self" href="/cricket-news/editorial/live-blogs" title="Latest Cricket Match live blogs">Live Blogs</a>
+                        <a class="cb-subnav-item" target="_self" href="/cricket-news/experts/harsha-bhogle/170" title="Articles and Videos by Harsha Bhogle">Harsha Bhogle</a></nav>
+                </div>
+                <div class="cb-subnav cb-hm-mnu-itm feature-button cursor-pointer" id="seriesDropDown"><a class="text-white" target="_self" href="/cricket-series">Series</a><span class="cb-caret-down"></span>
+                    <nav class="cb-sub-navigation"><a class="cb-subnav-item" target="_self" href="/cricket-series/2735/asia-cup-2018" title="Asia Cup 2018">Asia Cup 2018</a><a class="cb-subnav-item" target="_self" href="/cricket-series/2751/australia-v-pakistan-in-uae-2018" title="Australia v Pakistan in UAE, 2018">Australia v Pakistan in UAE, 2018</a>
+                        <a class="cb-subnav-item" target="_self" href="/cricket-series/2690/zimbabwe-tour-of-south-africa-2018" title="Zimbabwe tour of South Africa, 2018">Zimbabwe tour of South Africa, 2018</a><a class="cb-subnav-item" target="_self"
+                            href="/cricket-series/2749/vijay-hazare-trophy-2018-19" title="Vijay Hazare Trophy 2018-19">Vijay Hazare Trophy 2018-19</a></nav>
+                </div>
+                <div class="cb-subnav cb-hm-mnu-itm feature-button cursor-pointer" id="teamDropDown"><a class="text-white" target="_self" href="/cricket-team">Teams</a><span class="cb-caret-down"></span>
+                    <nav class="cb-sub-navigation cb-sub-lg">
+                        <div class="cb-sub-lg-outer">
+                            <div class="cb-sub-lg-sec">
+                                <h4 class="cb-sub-lg-sec-head">Test Teams</h4> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/india/2" title="India Cricket Team">India</a> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/pakistan/3"
+                                    title="Pakistan Cricket Team">Pakistan</a> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/australia/4" title="Australia Cricket Team">Australia</a> <a class="cb-subnav-item cb-sub-lg-sec-item"
+                                    target="_self" href="/cricket-team/sri-lanka/5" title="Sri Lanka Cricket Team">Sri Lanka</a> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/bangladesh/6" title="Bangladesh Cricket Team">Bangladesh</a>                                <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/england/9" title="England Cricket Team">England</a> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/windies/10"
+                                    title="Windies Cricket Team">Windies</a> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/south-africa/11" title="South Africa Cricket Team">South Africa</a> <a class="cb-subnav-item cb-sub-lg-sec-item"
+                                    target="_self" href="/cricket-team/zimbabwe/12" title="Zimbabwe Cricket Team">Zimbabwe</a> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/new-zealand/13" title="New Zealand Cricket Team">New Zealand</a>                                <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/ireland/27" title="Ireland Cricket Team">Ireland</a> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/afghanistan/96"
+                                    title="Afghanistan Cricket Team">Afghanistan</a> </div>
+                            <div class="cb-sub-lg-sec">
+                                <h4 class="cb-sub-lg-sec-head">Associate</h4> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/united-arab-emirates/7" title="United Arab Emirates Cricket Team">United Arab Emirates</a> <a class="cb-subnav-item cb-sub-lg-sec-item"
+                                    target="_self" href="/cricket-team/hong-kong/8" title="Hong Kong Cricket Team">Hong Kong</a> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/kenya/14" title="Kenya Cricket Team">Kenya</a>                                <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/united-states-of-america/15" title="United States of America Cricket Team">United States of America</a> <a class="cb-subnav-item cb-sub-lg-sec-item"
+                                    target="_self" href="/cricket-team/scotland/23" title="Scotland Cricket Team">Scotland</a> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/netherlands/24" title="Netherlands Cricket Team">Netherlands</a>                                <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/bermuda/25" title="Bermuda Cricket Team">Bermuda</a> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/canada/26"
+                                    title="Canada Cricket Team">Canada</a> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/uganda/44" title="Uganda Cricket Team">Uganda</a> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self"
+                                    href="/cricket-team/malaysia/71" title="Malaysia Cricket Team">Malaysia</a> <a class="cb-subnav-item cb-sub-lg-sec-item" target="_self" href="/cricket-team/nepal/72" title="Nepal Cricket Team">Nepal</a> <a class="cb-subnav-item cb-sub-lg-sec-item"
+                                    target="_self" href="/cricket-team/germany/77" title="Germany Cricket Team">Germany</a> </div>
+                        </div>
+                        <a target="_self" href="/cricket-team" class="cb-sub-lg-more">More...</a></nav>
+                </div>
+                <div class="cb-subnav cb-hm-mnu-itm feature-button cursor-pointer" id="videosDropDown"><a class="text-white" target="_self" href="/cricket-videos">Videos</a><span class="cb-caret-down"></span>
+                    <nav class="cb-sub-navigation"> <a target="_self" class="cb-subnav-item" href="/cricket-videos" title="All Cricket Videos">All Videos</a> <a target="_self" class="cb-subnav-item" href="/cricket-videos/categories" title="Cricket Videos Categories">Categories</a>
+                        <a target="_self" class="cb-subnav-item" href="/cricket-videos/playlists" title="Cricket Videos Playlists">Playlists</a>
+                    </nav>
+                </div> <a class="cb-hm-mnu-itm" target="_self" href="/cricket-stats/icc-rankings" title="ICC Rankings">Rankings</a>
+                <div class="cb-subnav cb-hm-mnu-itm feature-button cursor-pointer">More<span class="cb-caret-down"></span>
+                    <nav class="cb-sub-navigation" style="right:0px;"> <a class="cb-subnav-item" target="_self" href="/cricket-photo-gallery" title="Photo Gallery">Photos</a> <a class="cb-subnav-item" target="_self" href="/mobileapps" title="Mobile Apps">Mobile Apps</a><a class="cb-subnav-item" target="_self"
+                            href="/careers" title="Careers">Careers</a><a class="cb-subnav-item" target="_self" href="/info/contact" title="Contact Us">Contact Us</a></nav>
+                </div>
+                <div ng-controller="SearchCtrl" ng-init=" init(-1, 61, 76, 350, '', 'nav')">
+                    <div class="cb-nav-search-wrap" ng-style="{width: inputFocus?'830px':'170px'}">
+                        <div class="cb-col-100 cb-col cb-srch-bar cb-srch-bar-nav">
+                            <form ng-submit="search_results(false, false)" name="form" class="cb-search-form" ng-cloak>
+                                <div class="cb-search-input-nav">
+                                    <div class="cb-search-outer">
+                                        <div class="cb-search-input-wrap"> <input type="text" class="js-cb-search-input cb-search-input-elem cb-search-input-elem-nav form-control cb-car-inp cb-srch-bg" ng-change="suggest_search()" maxlength="500" ng-model="searchText" id="search_bar" name="search"
+                                                value="suggest.title" autocomplete="off" ng-class="{'cb-search-input-elem-error-nav':errorText, 'cb-srch-high-zIndex':dropdownVisible, 'cb-srch-input-focus':inputFocus}" placeholder="{{errorText?errorText:(source == 'nav' && inputFocus) || source == 'search-page'?'Search for a Player, Series or Team. eg: India tour of Sri Lanka': 'Search'}}"
+                                                ng-keydown="onKeyPress($event)" ng-focus="onInputFocus()" ng-blur="loseInputFocus()" ng-model-options="{ debounce: 400 }" /> <span class="cb-ico cb-search-input-icon cb-search-input-icon-nav"></span> <span class="cb-srch-cross-new cb-srch-cross-new-nav cb-font-14"
+                                                ng-class="{'cb-srch-cross-focus': inputFocus, 'cb-srch-high-zIndex':dropdownVisible}" ng-click="reset_form('view');" ng-show="searchText.length > 0">✖</span> </div>
+                                        <div ng-show="dropdownVisible" class="cb-srch-backdrop" ng-click="hideDropdown()"></div>
+                                        <div ng-show="dropdownVisible && searchText.length >= 2 && search_ftr_suggst.length > 0" class="cb-main-srch-box-wrap">
+                                            <ul class="cb-main-srch-box" id="searchBox_nav">
+                                                <li class="cb-main-srch-box-item {{selected_suggestions == $index?'highlight':''}}" id="search_item_{{$index}}" ng-click="search_results()" ng-repeat="suggest in search_ftr_suggst track by $index" ng-show="suggestions && searchText.length > 0 && inputFocus"
+                                                    ng-mouseover="highlight_item_mouse_hover($index)" ng-class="{'cb-main-srch-box-item-border':suggest.hasBorder, 'cb-big': suggest.isSearchItem}">
+                                                    <a ng-if="!suggest.isSearchItem" class="text-black cb-srch-suggest-link">
+                                                        <div class="cb-srch-suggest-img" ng-class="{'cb-srch-suggest-img-teams': suggest.type == 'Teams'}">
+                                                            <div ng-if="suggest.imgUrl" class=""> <img class="cb-srch-suggest-icon-img" ng-src="{{suggest.imgUrl}}" /> </div>
+                                                            <div ng-if="!suggest.imgUrl" class="cb-srch-sugggest-icon {{suggest.iconClass}} cb-ico"> </div>
+                                                        </div>
+                                                        <div class="cb-srch-suggest-content">
+                                                            <p class="cb-srch-suggest-content-title" ng-bind-html="suggest | searchfilter:oldText"></p>
+                                                            <p class="cb-srch-suggest-content-subtitle cb-font-12 cb-text-gray">{{suggest.tag}}</p>
+                                                        </div>
+                                                    </a>
+                                                    <a ng-if="suggest.isSearchItem" href="javascript:void(0)" class="text-black cb-srch-suggest-link">
+                                                        <div class="cb-srch-suggest-img">
+                                                            <div class="cb-srch-sugggest-icon cb-srch-sugggest-icon-search cb-ico"> </div>
+                                                        </div>
+                                                        <div class="cb-srch-suggest-content cb-center-text">
+                                                            <p class="cb-srch-suggest-content-title">Search for &#8220;<span ng-bind="searchText"></span>&#8221;</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cb-search-submit-nav" ng-class="{'cb-search-submit-input-focus': inputFocus, 'cb-search-submit-error': errorText}"> <a class="text-white cb-srch-bttn" ng-class="{'cb-srch-high-zIndex':dropdownVisible}" ng-click="search_results(false, true)">SEARCH</a> </div>
+                            </form>
+                        </div>
+                        <style>
+                            .cb-srch-ico {
+                                margin: 0
+                            }
+                        </style>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="page">
+        <div id="fb-root"></div>
+        <div id="page-wrapper" class="container" style="display:inline-block;">
+            <div id="shosh" class="ad-unit shosh-embed" style="height:0; width:980px; text-align:center;"></div><span id="skin_left" class="ad-unit" style="overflow:hidden; position:fixed;top:0;left:calc(50% - 635px);margin-right:3px;z-index:-99;"></span>
+            <div class="cb-col cb-col-100">
+                <div id="match_menu_container" class="cb-col cb-col-100 html-refresh" url="/api/html/homepage-scag" timeout="45000">
+                    <div class="cb-nav-main cb-bg-white" ng-init="run_active = 'Featured'">
+                        <nav class="cb-nav-bar" id="scagTab"><a href="javascript:void(0)" ng-class="{true:'active',false:''}[run_active == 'Featured']" class="cb-nav-tab-hm active" id="featured-mtchs-tab" ng-click="run_active = 'Featured'">Featured</a><a href="javascript:void(0)" ng-class="{true:'active',false:''}[run_active == 'International']"
+                                class="cb-nav-tab-hm " id="international-mtchs-tab" ng-click="run_active = 'International'">International</a><a href="javascript:void(0)" ng-class="{true:'active',false:''}[run_active == 'AUS v PAK in UAE']" class="cb-nav-tab-hm "
+                                id="aus-v-pak-in-uae-mtchs-tab" ng-click="run_active = 'AUS v PAK in UAE'">AUS v PAK in UAE</a><a href="javascript:void(0)" ng-class="{true:'active',false:''}[run_active == 'U19 Asia cup']" class="cb-nav-tab-hm " id="u19-asia-cup-mtchs-tab"
+                                ng-click="run_active = 'U19 Asia cup'">U19 Asia cup</a><a href="javascript:void(0)" ng-class="{true:'active',false:''}[run_active == 'Vijay Hazare']" class="cb-nav-tab-hm " id="vijay-hazare-mtchs-tab" ng-click="run_active = 'Vijay Hazare'">Vijay Hazare</a>
+                            <a class="cb-nav-tab-hm cb-text-link cb-all-mtch-tab" href="/cricket-match/live-scores" title="Live Scores of Cricket Matches" id="AllMatches">All Matches</a>
+                        </nav>
+                    </div>
+                    <div class="cb-bg-white" style="min-height:90px;" id="hm-scag-mtch-blk">
+                        <div ng-if="run_active == 'Featured'">
+                            <div class="cb-col-100 cb-col cb-hm-scg-blk ">
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="South Africa v Zimbabwe - 1st ODI" href="/live-cricket-scores/20187/rsa-vs-zim-1st-odi-zimbabwe-tour-of-south-africa-2018" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>RSA</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>119/5 (26.1 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>ZIM</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>117 (34.1 Ovs)</div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-complete">South Africa won by 5 wkts</div>
+                                    </a>
+                                </div>
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Bangladesh Women v Pakistan Women - 1st T20I" href="/live-cricket-scores/21434/banw-vs-pakw-1st-t20i-pakistan-women-tour-of-bangladesh-2018" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">Bangladesh Women</div>
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">Pakistan Women</div>
+                                        <div class=" cb-ovr-flo cb-text-preview" ng-bind="1538467200000 |date: 'EEEE, d MMM, hh:mm a'"></div>
+                                    </a>
+                                </div>
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Pakistan A v Australia - Four-day Practice match" href="/live-cricket-scores/21202/paka-vs-aus-four-day-practice-match-australia-v-pakistan-in-uae-2018" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>AUS</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>494/4 (170.0 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>PAKA</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>278</div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-live">Day 3: Stumps - Australia lead by 216 runs</div>
+                                    </a>
+                                </div>
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Bangladesh U19 v Hong Kong U19 - Group B" href="/live-cricket-scores/21456/banu19-vs-hku19-group-b-acc-u19-asia-cup-2018" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>HKU1..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>62/6 (28.4 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>BANU..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'></div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-live">Bangladesh U19 opt to bowl</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div ng-if="run_active == 'International'">
+                            <div class="cb-col-100 cb-col cb-hm-scg-blk ng-cloak">
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="South Africa v Zimbabwe - 1st ODI" href="/live-cricket-scores/20187/rsa-vs-zim-1st-odi-zimbabwe-tour-of-south-africa-2018" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>RSA</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>119/5 (26.1 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>ZIM</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>117 (34.1 Ovs)</div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-complete">South Africa won by 5 wkts</div>
+                                    </a>
+                                </div>
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Bangladesh Women v Pakistan Women - 1st T20I" href="/live-cricket-scores/21434/banw-vs-pakw-1st-t20i-pakistan-women-tour-of-bangladesh-2018" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">Bangladesh Women</div>
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">Pakistan Women</div>
+                                        <div class=" cb-ovr-flo cb-text-preview" ng-bind="1538467200000 |date: 'EEEE, d MMM, hh:mm a'"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div ng-if="run_active == 'AUS v PAK in UAE'">
+                            <div class="cb-col-100 cb-col cb-hm-scg-blk ng-cloak">
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Pakistan A v Australia - Four-day Practice match" href="/live-cricket-scores/21202/paka-vs-aus-four-day-practice-match-australia-v-pakistan-in-uae-2018" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>AUS</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>494/4 (170.0 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>PAKA</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>278</div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-live">Day 3: Stumps - Australia lead by 216 runs</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div ng-if="run_active == 'U19 Asia cup'">
+                            <div class="cb-col-100 cb-col cb-hm-scg-blk ng-cloak">
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Bangladesh U19 v Hong Kong U19 - Group B" href="/live-cricket-scores/21456/banu19-vs-hku19-group-b-acc-u19-asia-cup-2018" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>HKU1..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>62/6 (28.4 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>BANU..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'></div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-live">Bangladesh U19 opt to bowl</div>
+                                    </a>
+                                </div>
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Pakistan U19 v Sri Lanka U19 - Group B" href="/live-cricket-scores/21457/paku19-vs-slu19-group-b-acc-u19-asia-cup-2018" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>SLU1..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>140/4 (33.0 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>PAKU..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'></div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-live">Pakistan U19 opt to bowl</div>
+                                    </a>
+                                </div>
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Nepal U19 v United Arab Emirates U19 - Group A" href="/live-cricket-scores/21458/nplu19-vs-uaeu19-group-a-acc-u19-asia-cup-2018" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>UAEU..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>166/1 (30.0 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>NPLU..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'></div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-live">United Arab Emirates U19 opt to bat</div>
+                                    </a>
+                                </div>
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Afghanistan U19 v India U19 - Group A" href="/live-cricket-scores/21459/afgu19-vs-indu19-group-a-acc-u19-asia-cup-2018" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>INDU..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>157/5 (30.0 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>AFGU..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'></div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-live">India U19 opt to bat</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div ng-if="run_active == 'Vijay Hazare'">
+                            <div class="cb-col-100 cb-col cb-hm-scg-blk ng-cloak">
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Arunachal Pradesh v Nagaland - Round 9, Plate" href="/live-cricket-scores/21030/arunachalpradesh-vs-nagaland-round-9-plate-vijay-hazare-trophy-2018-19" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>ARUN..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>126/3 (31.0 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>NAGA..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'></div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-live">Nagaland opt to bowl</div>
+                                    </a>
+                                </div>
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Mizoram v Uttarakhand - Round 9, Plate" href="/live-cricket-scores/21031/mizoram-vs-uttarakhand-round-9-plate-vijay-hazare-trophy-2018-19" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>UTTA..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>182/5 (32.0 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>MIZO..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'></div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-live">Mizoram opt to bowl</div>
+                                    </a>
+                                </div>
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Puducherry v Sikkim - Round 9, Plate" href="/live-cricket-scores/21033/puducherry-vs-sikkim-round-9-plate-vijay-hazare-trophy-2018-19" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>SIKK..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>72/6 (35.0 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>PUDU..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'></div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-live">Sikkim opt to bat</div>
+                                    </a>
+                                </div>
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Goa v Mumbai - Round 9, Elite Group A" href="/live-cricket-scores/21034/goa-vs-mumbai-round-9-elite-group-a-vijay-hazare-trophy-2018-19" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>GOA</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>104/4 (30.0 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>MUMB..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'></div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-live">Goa opt to bat</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div ng-if="run_active == '4-Day Franchise Series'">
+                            <div class="cb-col-100 cb-col cb-hm-scg-blk ng-cloak">
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Cape Cobras v Knights - 2nd Match" href="/live-cricket-scores/21358/cob-vs-kng-2nd-match-4-day-franchise-series-2018-19" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>COB</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>12/0 (4.0 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>KNG</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>279</div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-live">Day 1: Stumps - Cape Cobras trail by 267 runs</div>
+                                    </a>
+                                </div>
+                                <div class="cb-col cb-col-25 cb-mtch-blk">
+                                    <a title="Warriors v Lions - 3rd Match" href="/live-cricket-scores/21359/war-vs-lions-3rd-match-4-day-franchise-series-2018-19" target="_self" class="cb-font-12">
+                                        <div class="cb-hmscg-bat-txt cb-ovr-flo ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>WAR</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'>305/7 (88.0 Ovs)</div>
+                                        </div>
+                                        <div class="cb-hmscg-bwl-txt ">
+                                            <div class='cb-ovr-flo cb-hmscg-tm-nm'>LION..</div>
+                                            <div class='cb-ovr-flo' style='display:inline-block; width:140px'></div>
+                                        </div>
+                                        <div class=" cb-ovr-flo cb-text-live">Day 1: Stumps</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu_branding" class="ad-unit" style="float:right;"></div>
+            </div>
+            <meta http-equiv="refresh" content="400">
+            <div class="cb-col cb-col-20">
+                <div class="cb-bg-white" id="cb-news-blck">
+                    <h2 class="cb-hm-lft-hdr cb-lv-scr-mtch-hdr">LATEST NEWS</h2>
+                    <div class='cb-hm-lft'>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm"><a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/104329/evin-lewis-declines-windies-central-contract" title="Evin Lewis declines Windies central contract">Evin Lewis declines Windies central contract</a>
+                            <div class="cb-nws-time">3h ago</div>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm"><a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/104328/central-information-commission-brings-bcci-under-rti" title="Central Information Commission brings BCCI under RTI Act">Central Information Commission brings BCCI under RTI Act</a>
+                            <div class="cb-nws-time">11h ago</div>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm"><a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/104327/ireland-cricket-team-wicketkeeper-batsman-gary-wilson-released-from-derbyshire-by-mutual-consent" title="Gary Wilson released from Derbyshire by mutual consent">Gary Wilson released from Derbyshire by mutual consent</a>
+                            <div class="cb-nws-time">13h ago</div>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm"><a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/104325/christopher-carter-announces-retirement-aged-21-hong-kong-cricket" title="Christopher Carter announces retirement aged 21">Christopher Carter announces retirement aged 21</a>
+                            <div class="cb-nws-time">13h ago</div>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm"><a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/104324/will-fraine-signs-three-year-deal-with-yorkshire" title="Will Fraine signs three-year deal with Yorkshire">Will Fraine signs three-year deal with Yorkshire</a>
+                            <div class="cb-nws-time">17h ago</div>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm"><a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/104323/murali-vijay-washington-sundar-return-to-tamil-nadu-cricket-squad-for-vijay-hazare" title="Vijay, Washington return to TN squad for Vijay Hazare">Vijay, Washington return to TN squad for Vijay Hazare</a>
+                            <div class="cb-nws-time">17h ago</div>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm"><a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/104322/chittagong-vikings-franchise-opt-out-of-bpl-2019" title="Chittagong Vikings " unable to continue " in BPL">Chittagong Vikings "unable to continue" in BPL</a>
+                            <div class="cb-nws-time">17h ago</div>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm"><a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/104319/pakistan-vs-australia-in-uae-2018-cricket-test-series-mohammad-hafeez-included" title="Hafeez included in Pakistan squad for Australia Tests">Hafeez included in Pakistan squad for Australia Tests</a>
+                            <div class="cb-nws-time">20h ago</div>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm"><a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/104315/soggy-outfield-forces-third-wi-sa-t20i-to-be-abandoned-west-indies-vs-south-africa" title="Soggy outfield forces third WI-SA T20I to be abandoned">Soggy outfield forces third WI-SA T20I to be abandoned</a>
+                            <div class="cb-nws-time">1d ago</div>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm"><a class="cb-nws-hdln-ancr text-hvr-underline" href="/cricket-news/104314/tussle-between-mpca-bcci-could-have-indore-odi-moved-india-cricket-news-bcci" title="Tussle between MPCA, BCCI could have Indore ODI moved">Tussle between MPCA, BCCI could have Indore ODI moved</a>
+                            <div class="cb-nws-time">1d ago</div>
+                        </div>
+                        <div class="cb-hm-mr-lnk"><a class="cb-font-12 cb-text-link" href="/cricket-news/latest-news" title="More News"><i>More News..</i></a></div>
+                    </div>
+                </div>
+                <div class="cb-bg-white" id="hm-photos-blk">
+                    <h2 class="cb-hm-lft-hdr cb-lv-scr-mtch-hdr">LATEST PHOTOS</h2>
+                    <div class='cb-hm-lft'>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                            <a href="/cricket-gallery/4308/south-africa-vs-zimbabwe-1st-odi-kimberley" title="South Africa vs Zimbabwe, 1st ODI, Kimberley"> <img width="165" height="95" class="lazy-loading pad-0" alt="South Africa vs Zimbabwe, 1st ODI, Kimberley" src="" source="//api.cricbuzz.com/a/img/v1/165x95/i1/c158739/south-africa-vs-zimbabwe-1st.jpg" />
+                                <div class="cb-nws-hdln">South Africa vs Zimbabwe, 1st ODI, Kimberley</div> <span class="cb-nws-time">Sun, Sep 30 2018</span> </a>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                            <a href="/cricket-gallery/4307/asia-cup-2018-india-vs-bangladesh-final" title="Asia Cup 2018: India vs Bangladesh, Final"> <img width="165" height="95" class="lazy-loading pad-0" alt="Asia Cup 2018: India vs Bangladesh, Final" src="" source="//api.cricbuzz.com/a/img/v1/165x95/i1/c158587/asia-cup-2018-india-vs-bangla.jpg" />
+                                <div class="cb-nws-hdln">Asia Cup 2018: India vs Bangladesh, Final</div> <span class="cb-nws-time">Fri, Sep 28 2018</span> </a>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                            <a href="/cricket-gallery/4306/asia-cup-2018-pakistan-vs-bangladesh-super-four-match-6" title="Asia Cup 2018: Pakistan vs Bangladesh, Super Four, Match 6"> <img width="165" height="95" class="lazy-loading pad-0" alt="Asia Cup 2018: Pakistan vs Bangladesh, Super Four, Match 6" src="" source="//api.cricbuzz.com/a/img/v1/165x95/i1/c158517/asia-cup-2018-pakistan-vs-ban.jpg" />
+                                <div class="cb-nws-hdln">Asia Cup 2018: Pakistan vs Bangladesh, Super Four, Match 6</div> <span class="cb-nws-time">Wed, Sep 26 2018</span> </a>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                            <a href="/cricket-gallery/4305/asia-cup-2018-india-vs-afghanistan-super-four-match-5" title="Asia Cup 2018: India vs Afghanistan, Super Four, Match 5"> <img width="165" height="95" class="lazy-loading pad-0" alt="Asia Cup 2018: India vs Afghanistan, Super Four, Match 5" src="" source="//api.cricbuzz.com/a/img/v1/165x95/i1/c158477/asia-cup-2018-india-vs-afghan.jpg" />
+                                <div class="cb-nws-hdln">Asia Cup 2018: India vs Afghanistan, Super Four, Match 5</div> <span class="cb-nws-time">Tue, Sep 25 2018</span> </a>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                            <a href="/cricket-gallery/4304/asia-cup-2018-afghanistan-vs-bangladesh-super-four-match-4" title="Asia Cup 2018: Afghanistan vs Bangladesh, Super Four, Match 4"> <img width="165" height="95" class="lazy-loading pad-0" alt="Asia Cup 2018: Afghanistan vs Bangladesh, Super Four, Match 4" src="" source="//api.cricbuzz.com/a/img/v1/165x95/i1/c158384/asia-cup-2018-afghanistan-vs.jpg" />
+                                <div class="cb-nws-hdln">Asia Cup 2018: Afghanistan vs Bangladesh, Super Four, Match 4</div> <span class="cb-nws-time">Sun, Sep 23 2018</span> </a>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                            <a href="/cricket-gallery/4303/asia-cup-2018-india-vs-pakistan-super-four-match-3" title="Asia Cup 2018: India vs Pakistan, Super Four, Match 3"> <img width="165" height="95" class="lazy-loading pad-0" alt="Asia Cup 2018: India vs Pakistan, Super Four, Match 3" src="" source="//api.cricbuzz.com/a/img/v1/165x95/i1/c158368/asia-cup-2018-india-vs-pakist.jpg" />
+                                <div class="cb-nws-hdln">Asia Cup 2018: India vs Pakistan, Super Four, Match 3</div> <span class="cb-nws-time">Sun, Sep 23 2018</span> </a>
+                        </div>
+                        <div class=" cb-hm-mr-lnk"> <a class="cb-font-12 cb-text-link" href="/cricket-photo-gallery" title="More Photos"><i>More Photos..</i></a> </div>
+                    </div>
+                </div>
+                <div class="cb-bg-white">
+                    <h2 class="cb-hm-lft-hdr cb-lv-scr-mtch-hdr">SCHEDULE</h2>
+                    <div class='cb-hm-lft'>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                            <div>Bangladesh Women vs Pakistan Women, 1st T20I</div>
+                            <div class="cb-nws-time">Tue Oct 02&nbsp;&#8226;&nbsp;08:00 AM&nbsp;GMT</div>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                            <div>South Africa vs Zimbabwe, 2nd ODI</div>
+                            <div class="cb-nws-time">Wed Oct 03&nbsp;&#8226;&nbsp;11:00 AM&nbsp;GMT</div>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                            <div>Bangladesh Women vs Pakistan Women, 2nd T20I</div>
+                            <div class="cb-nws-time">Wed Oct 03&nbsp;&#8226;&nbsp;08:00 AM&nbsp;GMT</div>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                            <div>Windies Women vs South Africa Women, 4th T20I</div>
+                            <div class="cb-nws-time">Thu Oct 04&nbsp;&#8226;&nbsp;11:00 PM&nbsp;GMT</div>
+                        </div>
+                        <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
+                            <div>India vs Windies, 1st Test</div>
+                            <div class="cb-nws-time">Thu Oct 04&nbsp;&#8226;&nbsp;04:00 AM&nbsp;GMT</div>
+                        </div>
+                        <div class="cb-hm-mr-lnk"> <a class="cb-font-12 cb-text-link" href="/cricket-schedule/series" title="Cricket Schedule"><i>More Matches..</i></a> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cb-col cb-col-47">
+                <div id="video_playlist">
+                    <script>
+                        CBQueue.push(function() {
+                            if ((_GEO.country == "US" || _GEO.country == "CA") && true) {
+                                _ele('#video_playlist').html('<div class="cb-bg-white" style="margin:0 5px 10px;"><div class="kaltura-playlist" uiconf_id="33885652" entry_id="0_lvphia47" uiautoplay="false" style="width:420px;height:385px;padding:10px 15px;"></div></div>');
+                            } else if (["AE", "SA", "KW", "BH", "QA", "OM", "GB"].indexOf(_GEO.country) != -1 && true) {
+                                var eplr = document.createElement('script');
+                                eplr.type = 'text/javascript';
+                                eplr.async = true;
+                                eplr.src = 'https://player.performgroup.com/eplayer.js#ccb175de91b4f3c5c4bbed6a35.qjdsydmry69m1je82zk8il975';
+                                var vpl = document.getElementById('video_playlist');
+                                vpl.className = "cb-bg-white";
+                                vpl.style.margin = "0px 5px 10px";
+                                vpl.appendChild(eplr);
+                            }
+                        });
+                    </script>
+                </div>
+                <script>
+                    CBQueue.push(function() {
+                        if (_GEO.country == "US" || _GEO.country == "CA") {
+                            _ele('#kaltura-video-player').removeClass('disp-none');
+                        }
+                        if (_GEO.country == "IN") {
+                            _ele('specials-home-module').removeClass('disp-none');
+                        }
+                    });
+                </script>
+                <div class="cb-col cb-hm-mid cb-bg-white cb-hmpage" style="clear:both">
+                    <div class='big-crd-main cb-bg-white'>
+                        <div class="crd-cntxt"><span>RTI ACT<span id="tnm_logo" class="ad-unit pull-right" style="top:-8px;z-index:0"></span></span>
+                        </div>
+                        <a href="/cricket-news/104328/central-information-commission-brings-bcci-under-rti" title="Central Information Commission brings BCCI under RTI Act"><img height="235" width="420" alt="Central Information Commission brings BCCI under RTI Act" title="Central Information Commission brings BCCI under RTI Act" itemprop="image" src="//i.cricketcb.com/i/news/fth/420x235/images/homepage/qck_1538418299.jpeg"
+                            /></a>
+                        <h2 class="big-crd-hdln"><a href="/cricket-news/104328/central-information-commission-brings-bcci-under-rti" title="Central Information Commission brings BCCI under RTI Act">Central Information Commission brings BCCI under RTI Act</a></h2>
+                        <div class="cb-nws-intr">As a result of the ruling, the board is now "answerable to the people of the country"</div>
+                        <div id="tnm" class="ad-unit center-block"></div>
+                    </div>
+                    <div class='big-crd-main cb-bg-white'>
+                        <div class="crd-cntxt"><span>END OF A LONG WAIT</span></div>
+                        <a href="/cricket-news/104316/making-way-for-mayank-agarwal-india-test-cricket-windies" title="Making way for Mayank"><img height="235" width="420" class="lazy-loading" alt="Making way for Mayank" title="Making way for Mayank" itemprop="image" source="//i.cricketcb.com/i/news/fth/420x235/images/homepage/qck_1538369009.jpeg" src="" /></a>
+                        <h2 class="big-crd-hdln"><a href="/cricket-news/104316/making-way-for-mayank-agarwal-india-test-cricket-windies" title="Making way for Mayank">Making way for Mayank</a></h2>
+                        <div class="cb-nws-intr">After a prolonged wait, the Karnataka batsman finally received a call-up to the Test side</div>
+                        <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/104295/windies-tour-of-india-2018-no-conversation-with-management-about-lack-of-chances-karun-nair" title="No conversation with management about lack of chances: Karun Nair">No conversation with management about lack of chances: Karun Nair</a></div>
+                    </div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">PAKISTAN VS AUSTRALIA IN UAE 2018</div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104319/pakistan-vs-australia-in-uae-2018-cricket-test-series-mohammad-hafeez-included" title="Hafeez included in Pakistan squad for Australia Tests"><img height="75" width="135" class="lazy-loading" alt="Hafeez included in Pakistan squad for Australia Tests" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538386108.jpeg" src="" style="padding:0px;" /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104319/pakistan-vs-australia-in-uae-2018-cricket-test-series-mohammad-hafeez-included" title="Hafeez included in Pakistan squad for Australia Tests">Hafeez included in Pakistan squad for Australia Tests</a></h3>
+                            <div class="sml-crd-subtxt">20h ago</div>
+                        </div>
+                        <div class="cb-nws-intr">The all-rounder has been in good form and struck a double century in his last first-class game for Sui Northern Gas Pipelines Limited</div>
+                        <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/104326/mitchell-marshs-162-headlines-third-days-play" title="Mitchell Marsh's 162 headlines third day's play">Warm-up match /	Mitchell Marsh's 162 headlines third day's play</a></div>
+                        <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/104280/leadership-roles-were-on-the-line-in-voting-process-tim-paine-australia-cricket-captain-uae-pakistan" title="Captaincy was on the line in voting process - Paine">Captaincy was on the line in voting process - Paine</a></div>
+                        <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/104260/usman-khawaja-unfazed-by-perceptions-over-spin-troubles-uae-pakistan-vs-australia-cricket-test-series-peter-siddle-steven-smith" title="Khawaja unfazed by 'perceptions' over spin troubles">Khawaja unfazed by 'perceptions' over spin troubles</a></div>
+                        <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/104311/matt-renshaw-cops-a-helmet-blow-while-fielding-australia-cricket-team-in-uae-2018" title="Renshaw cops a helmet blow while fielding">Renshaw cops a helmet blow while fielding</a></div>
+                    </div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">ZIMBABWE TOUR OF SOUTH AFRICA, 2018</div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104309/zimbabwe-tour-of-south-africa-2018-south-africa-seal-low-scoring-encounter-to-take-early-lead" title="South Africa seal low-scoring encounter to take early lead"><img height="75" width="135" class="lazy-loading" alt="South Africa seal low-scoring encounter to take early lead" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538317390.jpeg" src="" style="padding:0px;"
+                                /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104309/zimbabwe-tour-of-south-africa-2018-south-africa-seal-low-scoring-encounter-to-take-early-lead" title="South Africa seal low-scoring encounter to take early lead">South Africa seal low-scoring encounter to take early lead</a></h3>
+                            <div class="sml-crd-subtxt">1d ago</div>
+                        </div>
+                        <div class="cb-nws-intr">Zimbabwe were shot out for 117, before South Africa chased down the target in 26.1 overs</div>
+                    </div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">WINDIES TOUR OF INDIA 2018</div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104314/tussle-between-mpca-bcci-could-have-indore-odi-moved-india-cricket-news-bcci" title="Tussle between MPCA, BCCI could have Indore ODI moved"><img height="75" width="135" class="lazy-loading" alt="Tussle between MPCA, BCCI could have Indore ODI moved" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538327808.jpeg" src="" style="padding:0px;" /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104314/tussle-between-mpca-bcci-could-have-indore-odi-moved-india-cricket-news-bcci" title="Tussle between MPCA, BCCI could have Indore ODI moved">Tussle between MPCA, BCCI could have Indore ODI moved</a></h3>
+                            <div class="sml-crd-subtxt">1d ago</div>
+                        </div>
+                        <div class="cb-nws-intr">India and Windies are slated to play the second ODI of the 5-match Odi series at Indore</div>
+                    </div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">WINDIES CENTRAL CONTRACTS 2018-19</div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104329/evin-lewis-declines-windies-central-contract" title="Evin Lewis declines Windies central contract"><img height="75" width="135" class="lazy-loading" alt="Evin Lewis declines Windies central contract" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538448386.jpeg" src="" style="padding:0px;" /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104329/evin-lewis-declines-windies-central-contract" title="Evin Lewis declines Windies central contract">Evin Lewis declines Windies central contract</a></h3>
+                            <div class="sml-crd-subtxt">3h ago</div>
+                        </div>
+                        <div class="cb-nws-intr">The explosive opener was offered a white-ball contract for the 2018-19 season</div>
+                    </div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">WHAT'S COOKING?</div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104322/chittagong-vikings-franchise-opt-out-of-bpl-2019" title="Chittagong Vikings " unable to continue " in BPL"><img height="75" width="135" class="lazy-loading" alt="Chittagong Vikings " unable to continue " in BPL" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538396585.jpeg" src="" style="padding:0px;" /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104322/chittagong-vikings-franchise-opt-out-of-bpl-2019" title="Chittagong Vikings " unable to continue " in BPL">Chittagong Vikings "unable to continue" in BPL</a></h3>
+                            <div class="sml-crd-subtxt">17h ago</div>
+                        </div>
+                        <div class="cb-nws-intr">The decision came to light when the franchise decided not to send the list of players they want to retain for the upcoming edition</div>
+                    </div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">BACK TO THE ROOTS</div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104303/mohammad-amir-hopes-to-rediscover-bowling-rhythm-in-domestic-cricket-pakistan-cricket" title="Amir looking to rediscover bowling rhythm in domestic cricket"><img height="75" width="135" class="lazy-loading" alt="Amir looking to rediscover bowling rhythm in domestic cricket" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538294007.jpeg" src="" style="padding:0px;"
+                                /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104303/mohammad-amir-hopes-to-rediscover-bowling-rhythm-in-domestic-cricket-pakistan-cricket" title="Amir looking to rediscover bowling rhythm in domestic cricket">Amir looking to rediscover bowling rhythm in domestic cricket</a></h3>
+                            <div class="sml-crd-subtxt">1d ago</div>
+                        </div>
+                        <div class="cb-nws-intr">The off-colour Pakistan pacer will join up with the Sui Southern Gas Corporation after a wicketless Asia Cup campaign</div>
+                        <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/104313/mohammad-amir-dropped-return-to-domestic-ssgc-pakistan-cricket-2018" title="" Amir has lost his swing and we are looking to work on it "">"Amir has lost his swing and we are looking to work on it"</a></div>
+                    </div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">PREMATURE RETIREMENT</div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104325/christopher-carter-announces-retirement-aged-21-hong-kong-cricket" title="Christopher Carter announces retirement aged 21"><img height="75" width="135" class="lazy-loading" alt="Christopher Carter announces retirement aged 21" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538411368.jpeg" src="" style="padding:0px;" /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104325/christopher-carter-announces-retirement-aged-21-hong-kong-cricket" title="Christopher Carter announces retirement aged 21">Christopher Carter announces retirement aged 21</a></h3>
+                            <div class="sml-crd-subtxt">13h ago</div>
+                        </div>
+                        <div class="cb-nws-intr">The promising wicketkeeper-batsman aspires to become a pilot</div>
+                    </div>
+                    <div id="native_ads_web" class="ad-unit center-block"></div>
+                    <div id="native_homepage_news" class="ad-native ng-cloak" ad-loaded="false" ad-content='<div class="sml-crd-main"><div class="cb-col-33 cb-col"><a rel="nofollow noreferrer" title="[[title]]" target="_blank" href="[[clk]]"><img style="padding:0px;width:140px;" alt="[[title]]" class="img-responsive ng-isolate-scope" src="[[img]]" image-loaded="true"></a></div><div class="cb-col-67 cb-col"><div class="sml-crd-hdln cb-font-18 line-ht24"><a title="[[title]]" class="text-black text-hvr-underline" target="_blank" href="[[clk]]">[[title]]</a></div><div style="float:right;margin-top:-50px;"><a rel="noreferrer" target="_blank" href="[[adchoicesClickURL]]"><img src="[[adchoicesImgURL]]"/></a></div><div class="ad-native-sponsor sml-crd-subtxt">[[sponsor]]<img src="[[logo]]" class="pull-right" style="height:14px;" /></div></div><div class="cb-nws-intr">[[text]]</div></div>'></div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">WORLD T20 PREPARATION</div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104312/lata-mondol-recalled-to-bangladesh-squad-for-pakistan-series-bangladesh-womens-cricket-team" title="Lata Mondal recalled to Bangladesh squad for Pakistan series"><img height="75" width="135" class="lazy-loading" alt="Lata Mondal recalled to Bangladesh squad for Pakistan series" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538321967.jpeg" src="" style="padding:0px;"
+                                /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104312/lata-mondol-recalled-to-bangladesh-squad-for-pakistan-series-bangladesh-womens-cricket-team" title="Lata Mondal recalled to Bangladesh squad for Pakistan series">Lata Mondal recalled to Bangladesh squad for Pakistan series</a></h3>
+                            <div class="sml-crd-subtxt">1d ago</div>
+                        </div>
+                        <div class="cb-nws-intr">Lata was one of the five other names who have been recalled to the national side</div>
+                    </div>
+                    <div class="cb-col cb-hm-exprt-wrap">
+                        <div class="cb-col cb-col-43 cb-font-20 text-capital text-bold"> <a class="cb-hm-exprt-hdr inline-block" title="View all Articles and Videos of Harsha Bhogle" href="/cricket-news/experts/harsha-bhogle/170"> Harsha Bhogle </a> </div>
+                        <div class="cb-hm-exprt-hdr-ln cb-col-57 cb-col"></div>
+                        <div class="sml-crd-main exprt-sml-crd">
+                            <div class="cb-col-33 cb-col">
+                                <a href="/cricket-videos/33190/castrol-activ-champions-rohit-sharma" title="Castrol Activ Champions: Rohit Sharma"><img height="75" width="135" class="lazy-loading" alt="Castrol Activ Champions: Rohit Sharma" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/prv_9eb62_1538282607.jpg" src="" style="padding:0px;" />
+                                    <div class="cb-vid-hm-sm-brdr">
+                                        <div class="cb-vid-hm-sm-ply">&#9658;</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="cb-col-67 cb-col cb-hdln-hght">
+                                <h3 class="sml-crd-hdln"><a href="/cricket-videos/33190/castrol-activ-champions-rohit-sharma" title="Castrol Activ Champions: Rohit Sharma">Castrol Activ Champions: Rohit Sharma</a></h3>
+                                <div class="sml-crd-subtxt">2d ago</div>
+                            </div>
+                            <div class="cb-nws-intr">Rohit Sharma, the reliable captain and a white-ball champion, is the feature star in the latest edition of Harsha's Activ Champions</div>
+                        </div>
+                        <div class="sml-crd-main exprt-sml-crd">
+                            <div class="cb-col-33 cb-col">
+                                <a href="/cricket-videos/33025/castrol-activ-champions-gautam-gambhir" title="Castrol Activ Champions: Gautam Gambhir"><img height="75" width="135" class="lazy-loading" alt="Castrol Activ Champions: Gautam Gambhir" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/prv_b5386_1537097302.jpg" src="" style="padding:0px;" />
+                                    <div class="cb-vid-hm-sm-brdr">
+                                        <div class="cb-vid-hm-sm-ply">&#9658;</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="cb-col-67 cb-col cb-hdln-hght">
+                                <h3 class="sml-crd-hdln"><a href="/cricket-videos/33025/castrol-activ-champions-gautam-gambhir" title="Castrol Activ Champions: Gautam Gambhir">Castrol Activ Champions: Gautam Gambhir</a></h3>
+                                <div class="sml-crd-subtxt">15d ago</div>
+                            </div>
+                            <div class="cb-nws-intr">An opener who played a pivotal role in India's twin ICC WT20 2007 and ICC CWC 2011 triumphs, Gambhir's aggressive aura also ensured that KKR's IPL woes ended in 2012. Bhogle profiles him</div>
+                        </div>
+                    </div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">VIJAY HAZARE TROPHY, 2018-19</div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104320/rajasthan-register-their-first-win-vijay-hazare-trophy-2018-19" title="Rajasthan register their first win"><img height="75" width="135" class="lazy-loading" alt="Rajasthan register their first win" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538392065.jpeg" src="" style="padding:0px;" /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104320/rajasthan-register-their-first-win-vijay-hazare-trophy-2018-19" title="Rajasthan register their first win">Rajasthan register their first win</a></h3>
+                            <div class="sml-crd-subtxt">18h ago</div>
+                        </div>
+                        <div class="cb-nws-intr">Manender Singh's maiden List A century followed by TM ul Haq's three-fer helped Rajasthan to a 56-run win over Assam, who are still without a win</div>
+                        <div class="big-crd-reltd-itm"><a class="big-crd-rltd-txt" href="/cricket-news/104323/murali-vijay-washington-sundar-return-to-tamil-nadu-cricket-squad-for-vijay-hazare" title="Vijay, Washington return to TN squad for Vijay Hazare">Vijay, Washington return to TN squad for Vijay Hazare</a></div>
+                    </div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">AUSTRALIAN DOMESTIC ONE-DAY CUP</div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104317/australian-domestic-one-day-cup-western-australia-finish-on-top-after-marcus-stoinis-blitz-vs-tasmania" title="Western Australia finish on top after Stoinis blitz"><img height="75" width="135" class="lazy-loading" alt="Western Australia finish on top after Stoinis blitz" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538381947.jpeg" src="" style="padding:0px;" /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104317/australian-domestic-one-day-cup-western-australia-finish-on-top-after-marcus-stoinis-blitz-vs-tasmania" title="Western Australia finish on top after Stoinis blitz">Western Australia finish on top after Stoinis blitz</a></h3>
+                            <div class="sml-crd-subtxt">21h ago</div>
+                        </div>
+                        <div class="cb-nws-intr">The hard-hitting all-rounder smashed a 49-ball 93</div>
+                    </div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">RETURNING HOME </div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104327/ireland-cricket-team-wicketkeeper-batsman-gary-wilson-released-from-derbyshire-by-mutual-consent" title="Gary Wilson released from Derbyshire by mutual consent"><img height="75" width="135" class="lazy-loading" alt="Gary Wilson released from Derbyshire by mutual consent" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538412992.jpeg" src="" style="padding:0px;" /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104327/ireland-cricket-team-wicketkeeper-batsman-gary-wilson-released-from-derbyshire-by-mutual-consent" title="Gary Wilson released from Derbyshire by mutual consent">Gary Wilson released from Derbyshire by mutual consent</a></h3>
+                            <div class="sml-crd-subtxt">13h ago</div>
+                        </div>
+                        <div class="cb-nws-intr">The Irish wicketkeeper-batsman returns home to pursue opportunities after Ireland gained full ICC membership</div>
+                    </div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">SOUTH AFRICA WOMEN TOUR OF WEST INDIES, 2018</div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104315/soggy-outfield-forces-third-wi-sa-t20i-to-be-abandoned-west-indies-vs-south-africa" title="Soggy outfield forces third WI-SA T20I to be abandoned"><img height="75" width="135" class="lazy-loading" alt="Soggy outfield forces third WI-SA T20I to be abandoned" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538361479.jpeg" src="" style="padding:0px;" /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104315/soggy-outfield-forces-third-wi-sa-t20i-to-be-abandoned-west-indies-vs-south-africa" title="Soggy outfield forces third WI-SA T20I to be abandoned">Soggy outfield forces third WI-SA T20I to be abandoned</a></h3>
+                            <div class="sml-crd-subtxt">1d ago</div>
+                        </div>
+                        <div class="cb-nws-intr">Windies Women lead the five-match series 2-0 with the next game scheduled on October 4</div>
+                    </div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">NEW ZEALAND WOMEN IN AUSTRALIA, 2018</div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104318/megan-schutt-australia-women-cricket-new-zealand-series-clinching-win" title="Megan Schutt sets the tone in Australia's series-clinching win"><img height="75" width="135" class="lazy-loading" alt="Megan Schutt sets the tone in Australia's series-clinching win" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538383314.jpeg" src="" style="padding:0px;"
+                                /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104318/megan-schutt-australia-women-cricket-new-zealand-series-clinching-win" title="Megan Schutt sets the tone in Australia's series-clinching win">Megan Schutt sets the tone in Australia's series-clinching win</a></h3>
+                            <div class="sml-crd-subtxt">20h ago</div>
+                        </div>
+                        <div class="cb-nws-intr">Alyssa Healy and Elyse Vilani scored half-centuries as hosts beat NZ by six wickets in the second T20I</div>
+                    </div>
+                    <div class="sml-crd-main">
+                        <div class="crd-cntxt">NEW SIGNING</div>
+                        <div class="cb-col-33 cb-col">
+                            <a href="/cricket-news/104324/will-fraine-signs-three-year-deal-with-yorkshire" title="Will Fraine signs three-year deal with Yorkshire"><img height="75" width="135" class="lazy-loading" alt="Will Fraine signs three-year deal with Yorkshire" source="//i.cricketcb.com/i/news/fth/135x75/images/homepage/qck_1538398104.jpeg" src="" style="padding:0px;" /></a>
+                        </div>
+                        <div class="cb-col-67 cb-col cb-hdln-hght">
+                            <h3 class="sml-crd-hdln"><a href="/cricket-news/104324/will-fraine-signs-three-year-deal-with-yorkshire" title="Will Fraine signs three-year deal with Yorkshire">Will Fraine signs three-year deal with Yorkshire</a></h3>
+                            <div class="sml-crd-subtxt">17h ago</div>
+                        </div>
+                        <div class="cb-nws-intr">Nottinghamshire had offered a new contract to the top-order batsman, but the 22-year-old decided to return to the County for whom he played age-group cricket</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cb-col cb-col-33">
+                <div class="cb-col cb-col-100 cb-hm-rt-itm cb-bg-white">
+                    <div id="mpu" class="ad-unit center-block " style="min-height: 250px;"></div>
+                </div>
+                <div id="strip_320x50" class="ad-unit"></div>
+                <div class="cb-col cb-col-100 cb-hm-rt-itm cb-bg-white" id="latest-vid-mod" gtm-label='Homepage'>
+                    <h4 class="cb-mdl-hdr">FEATURED VIDEOS</h4>
+                    <div class="cb-col cb-col-100 cb-mid-wrp">
+                        <a target="_self" href="/cricket-videos/33194/indian-squad-for-test-series-against-windies" class="suggested-video-gtm" gtm-label="Indian squad for Test series against Windies|33194" title="Indian squad for Test series against Windies">
+                            <div class="cb-pos-rel"> <img class="cb-suggested-vid-img suggested-video-gtm" gtm-label="Indian squad for Test series against Windies|33194" alt="Indian squad for Test series against Windies" gtm-label="Indian squad for Test series against Windies|33194"
+                                    title="Indian squad for Test series against Windies" src="//api.cricbuzz.com/a/img/v1/290x164/i1/c158646/indian-squad-for-test-series-a.jpg" height="164" width="290" />
+                                <div class="cb-cen">
+                                    <div class="cb-vid-sm-ply-api">&#9658;</div>
+                                </div>
+                            </div>
+                            <h4 class="text-hvr-underline suggested-video-gtm" gtm-label="Indian squad for Test series against Windies|33194">Indian squad for Test series against Windies</h4>
+                        </a>
+                        <div class="cb-nws-time"> 2d ago </div>
+                    </div>
+                    <div class="cb-col cb-col-100 cb-mid-wrp">
+                        <a target="_self" href="/cricket-videos/33277/why-shikhar-dhawan-got-the-selectors-axe-for-the-west-indies-test-series" class="suggested-video-gtm" gtm-label="Why Shikhar Dhawan got the Selectors&#39; axe for the West Indies Test series|33277" title="Why Shikhar Dhawan got the Selectors&#39; axe for the West Indies Test series">
+                            <div class="cb-pos-rel"> <img class="cb-suggested-vid-img suggested-video-gtm" gtm-label="Why Shikhar Dhawan got the Selectors&#39; axe for the West Indies Test series|33277" alt="Why Shikhar Dhawan got the Selectors&#39; axe for the West Indies Test series"
+                                    gtm-label="Why Shikhar Dhawan got the Selectors&#39; axe for the West Indies Test series|33277" title="Why Shikhar Dhawan got the Selectors&#39; axe for the West Indies Test series" src="//api.cricbuzz.com/a/img/v1/290x164/i1/c158767/why-shikhar-dhawan-got-the-sel.jpg"
+                                    height="164" width="290" />
+                                <div class="cb-cen">
+                                    <div class="cb-vid-sm-ply-api">&#9658;</div>
+                                </div>
+                            </div>
+                            <h4 class="text-hvr-underline suggested-video-gtm" gtm-label="Why Shikhar Dhawan got the Selectors&#39; axe for the West Indies Test series|33277">Why Shikhar Dhawan got the Selectors' axe for the West Indies Test series</h4>
+                        </a>
+                        <div class="cb-nws-time"> 9h ago </div>
+                    </div>
+                    <div class="cb-col cb-col-100 cb-mid-wrp">
+                        <a target="_self" href="/cricket-videos/33190/castrol-activ-champions-rohit-sharma" class="suggested-video-gtm" gtm-label="Castrol Activ Champions: Rohit Sharma|33190" title="Castrol Activ Champions: Rohit Sharma">
+                            <div class="cb-pos-rel"> <img class="cb-suggested-vid-img suggested-video-gtm" gtm-label="Castrol Activ Champions: Rohit Sharma|33190" alt="Castrol Activ Champions: Rohit Sharma" gtm-label="Castrol Activ Champions: Rohit Sharma|33190" title="Castrol Activ Champions: Rohit Sharma"
+                                    src="//api.cricbuzz.com/a/img/v1/290x164/i1/c158622/castrol-activ-champions-rohit.jpg" height="164" width="290" />
+                                <div class="cb-cen">
+                                    <div class="cb-vid-sm-ply-api">&#9658;</div>
+                                </div>
+                            </div>
+                            <h4 class="text-hvr-underline suggested-video-gtm" gtm-label="Castrol Activ Champions: Rohit Sharma|33190">Castrol Activ Champions: Rohit Sharma</h4>
+                        </a>
+                        <div class="cb-nws-time"> Sep 28 2018 </div>
+                    </div>
+                    <div class="cb-col cb-col-100 cb-more-btn-cntnr"> <a target="_self" title="Click to view more videos" href="/cricket-videos" class="cb-more-btn" role="button">More Videos</a> </div>
+                </div>
+                <div class="cb-col cb-col-100 cb-hm-rt-itm cb-bg-white">
+                    <div id="mpu2" class="ad-unit center-block"></div>
+                </div>
+                <div class="cb-col cb-col-100 cb-hm-rt-itm cb-bg-white">
+                    <h4 class="cb-mdl-hdr">Specials</h4>
+                    <div class="cb-col cb-col-100 cb-mid-wrp">
+                        <a href="/cricket-news/104288/zimbabwe-cricket-on-murky-waters-waiting-for-the-tides-of-change-spotlight-tristan-holme-sikandar-raza-heath-streak" title="On murky waters waiting for the tides of change"><img class="cb-vid-img" alt="On murky waters waiting for the tides of change" src="//i.cricketcb.com/i/news/fth/303x170/images/homepage/qck_1538220552.jpeg" height="170" width="303" />
+                            <h4 class="text-hvr-underline">On murky waters waiting for the tides of change</h4>
+                        </a>
+                        <div class="cb-nws-intr">From coming close to suspending Zimbabwe Cricket, the ICC have handed the organisation a financial lifeline. Now the task of regenerating the game begins</div>
+                    </div>
+                    <div class="cb-col cb-col-100 cb-mid-wrp">
+                        <a href="/cricket-news/104149/cricket-knuckle-ball-zaheer-khan-charl-langeveldt-bhuvneshwar-kumar" title="The expansion of the knuckle ball"><img class="cb-vid-img" alt="The expansion of the knuckle ball" src="//i.cricketcb.com/i/news/fth/303x170/images/homepage/qck_1537631040.jpeg" height="170" width="303" />
+                            <h4 class="text-hvr-underline">The expansion of the knuckle ball</h4>
+                        </a>
+                        <div class="cb-nws-intr">The likes of Bhuvneshwar Kumar and Andrew Tye have been using the knuckle ball to good effect in recent times</div>
+                    </div>
+                    <div class="cb-col cb-col-100 cb-mid-wrp">
+                        <a href="/cricket-news/104200/from-takashinga-to-northants-the-hunger-of-blessing-muzarabani" title="From Takashinga to Northants: The hunger of Blessing Muzarabani"><img class="cb-vid-img" alt="From Takashinga to Northants: The hunger of Blessing Muzarabani" src="//i.cricketcb.com/i/news/fth/303x170/images/homepage/qck_1537771817.jpeg" height="170" width="303" />
+                            <h4 class="text-hvr-underline">From Takashinga to Northants: The hunger of Blessing Muzarabani</h4>
+                        </a>
+                        <div class="cb-nws-intr">Muzarabani had the option to ply his trade in the county circuit as an overseas player, according to his first representative, but he chose to sign up with an agent which eventually led to a Kolpak path</div>
+                    </div>
+                    <div class="cb-col cb-col-100 cb-mid-wrp">
+                        <a href="/cricket-news/104051/india-women-cricket-taniya-bhatia-keeping-up-with-her-genes-interview" title="Taniya Bhatia - 'Keeping' up with her genes"><img class="cb-vid-img" alt="Taniya Bhatia - 'Keeping' up with her genes" src="//i.cricketcb.com/i/news/fth/303x170/images/homepage/qck_1536902567.jpeg" height="170" width="303" />
+                            <h4 class="text-hvr-underline">Taniya Bhatia - 'Keeping' up with her genes</h4>
+                        </a>
+                        <div class="cb-nws-intr">A quick rise, a nosedive and a spirited revival - the 20-year-old reflects on her young career in a heart-to-heart talk</div>
+                    </div>
+                </div>
+                <div class="cb-col cb-col-100 cb-hm-rt-itm cb-bg-white">
+                    <div id="mpu3" class="ad-unit center-block"></div>
+                </div>
+                <div class="cb-col cb-col-100 cb-hm-rt-itm cb-bg-white">
+                    <div class="cb-bg-white cb-col-100 cb-col">
+                        <h4 class='cb-mdl-hdr'>POLL</h4>
+                        <div ng-controller="pollController" style='margin-top:10px;'>
+                            <form class="form-horizontal" ng-submit="false">
+                                <div class="form-group"><span class="text-bold cb-font-16" ng-bind="poll.question"> </span></div>
+                                <div class="form-group disp-none" ng-class="pollId >= 0 ? 'disp-blck':''">
+                                    <div class="radio" ng-repeat="option in poll.options">
+                                        <div class="text-gray cb-col-100 cb-col">
+                                            <div class="cb-col cb-col-100 cb-sub-opning"><input type="radio" id="option_{{option.id}}" name="option" ng-value="option.id" ng-model="poll.selected_option" ng-if="poll.voting_enabled && !poll.show_results" class='cb-col cb-poll-radio'><span ng-bind="option.text"
+                                                    class='cb-col cb-col-84'></span></div>
+                                            <div class="cb-col-100 cb-col">
+                                                <div class="progress cb-poll-prgrs cb-col-84 cb-col" ng-if="poll.show_results || !poll.voting_enabled">
+                                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{votes_percent}}" aria-valuemin="0" aria-valuemax="100" ng-style="{'width': option.votes_percent+'%'}"></div>
+                                                </div>
+                                                <div class="cb-col-16 cb-col cb-font-12 text-right" ng-if="poll.show_results || !poll.voting_enabled" ng-bind="option.votes_percent + '%'"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cb-mtch-lst disp-none cb-col-100 cb-col" ng-class="pollId >= 0 ? 'disp-blck':''"><span ng-if="poll.voting_enabled"><button type="submit" class="cb-more-btn cb-cht-lgn-cls" ng-click="cast_vote(poll)" ng-show="poll.show_results == false">Vote</button><button class="cb-more-btn" ng-click="poll.show_results = !poll.show_results" ng-bind="{true:'Back',false:'Result'}[poll.show_results]">Result</button></span>
+                                    <span class="cb-ttl-vts pull-right" ng-bind="'Total votes: ' + poll.votes" ng-if="poll.show_results || !poll.voting_enabled">Total votes : 0</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                .cb-lv-scrs-col {
+                    max-width: 325px;
+                }
+                
+                .cb-hmpage:first-child {
+                    border-top: 0;
+                }
+            </style> <span id="skin_right" class="ad-unit" style="overflow:hidden;position:fixed;top:0;left:calc(50% + 490px);margin-left:3px;z-index:-99;"></span></div>
+    </div>
+    <div ng-cloak ng-if='$root.$GEO.continent == "EU"'>
+        <div class="feedback-bar text-center cb-col-100 disp-none feedback-menu" id="feedback-bar" ng-controller="FeedbackCtrl" ng-init="show_feedback_menu();"><span class="feedback-txt">We use cookies to improve your experience on our site and to show you non-personalized ads. Find out more in our <a style="color:#4A90E2;" href="/info/privacy">privacy policy</a> and <a style="color:#4A90E2;" href="/info/privacy#cookie_policy">cookie policy</a></span>
+            <button class="cb-feedback-btn blue-btn cb-cursor" id="close_feedback_btn" ng-click="close_feedback();">OK</button>
+        </div>
+    </div>
+    <footer id="FooterWraper" itemscope itemtype="http://schema.org/WPFooter">
+        <div class="cb-footer cb-col-100 cb-col">
+            <div class='cb-ftr-cntnr'>
+                <div class="cb-col-25 cb-col">
+                    <a class="center-block" href="/">
+                        <div class="cb-ftr-logo cb-ico"></div>
+                    </a>
+                </div>
+                <div class="cb-col-25 cb-col">
+                    <div class="text-left cb-font-16 text-bold">MOBILE SITE & APPS</div>
+                    <ul class="cb-ftr-ul">
+                        <li class="cb-ftr-lst"><a href="https://m.cricbuzz.com" class="text-white"><span class="cb-mobile-site cb-ico"></span><span class="cb-footer-list-rt">m.cricbuzz.com</span></a></li>
+                        <li class="cb-ftr-lst"><a class="text-white" href="https://play.google.com/store/apps/details?id=com.cricbuzz.android" target="_blank"><span class="cb-app-android cb-ico"></span><span class="cb-footer-list-rt">Android</span></a></li>
+                        <li class="cb-ftr-lst"><a class="text-white" href="https://itunes.apple.com/app/id360466413" target="_blank"><span class="cb-app-ios cb-ico"></span><span class="cb-footer-list-rt">iOS</span></a></li>
+                        <li class="cb-ftr-lst"><a class="text-white" href="https://www.windowsphone.com/en-us/store/app/cricbuzz/d349db5c-d4e9-4498-ba6f-b9059e452965" target="_blank"><span class="cb-app-windows cb-ico"></span><span class="cb-footer-list-rt">Windows Mobile</span></a></li>
+                        <li class="cb-ftr-lst"><a class="text-white" href="https://appworld.blackberry.com/webstore/content/64558" target="_blank"><span class="cb-app-blackberry cb-ico"></span><span class="cb-footer-list-rt">Blackberry</span></a></li>
+                        <li class="cb-ftr-lst"><a class="text-white" href="https://chrome.google.com/webstore/detail/cricbuzz/opljecakjchbhhikbeifamamnpcdbgem" target="_blank"><span class="cb-app-chrome cb-ico"></span><span class="cb-footer-list-rt">Chrome Extension</span></a></li>
+                    </ul>
+                </div>
+                <div class="cb-col-25 cb-col">
+                    <div class="text-left cb-font-16 text-bold">FOLLOW US ON</div>
+                    <ul class="cb-ftr-ul">
+                        <li class="cb-ftr-lst"><a class="text-white" href="https://www.facebook.com/cricbuzz" target="_blank"><span class="cb-social-fb cb-ico"></span><span class="cb-footer-list-rt">facebook</span></a></li>
+                        <li class="cb-ftr-lst"><a class="text-white" href="https://twitter.com/cricbuzz" target="_blank"><span class="cb-social-twitter cb-ico"></span><span class="cb-footer-list-rt">twitter</span></a></li>
+                        <li class="cb-ftr-lst"><a class="text-white" href="https://www.youtube.com/channel/UCSRQXk5yErn4e14vN76upOw" target="_blank"><span class="cb-social-ytbe cb-ico"></span><span class="cb-footer-list-rt">youtube</span></a></li>
+                        <li class="cb-ftr-lst"><a class="text-white" href="https://plus.google.com/+cricbuzz/" target="_blank"><span class="cb-social-gplus cb-ico"></span><span class="cb-footer-list-rt">google+</span></a></li>
+                        <li class="cb-ftr-lst"><a class="text-white" href="https://in.pinterest.com/cricbuzz/" target="_blank"><span class="cb-social-pinterest cb-ico"></span><span class="cb-footer-list-rt">Pinterest</span></a></li>
+                    </ul>
+                </div>
+                <div class="cb-col-25 cb-col">
+                    <div class="text-left cb-font-16 text-bold">COMPANY</div>
+                    <ul class="cb-ftr-ul">
+                        <li class="cb-ftr-lst"><a class="text-white" href="/careers">Careers</a></li>
+                        <li class="cb-ftr-lst"><a class="text-white" href="/info/advertise">Advertise</a></li>
+                        <li class="cb-ftr-lst"><a class="text-white" rel="nofollow" href="/info/privacy">Privacy Policy</a></li>
+                        <li class="cb-ftr-lst"><a class="text-white" rel="nofollow" href="/info/termsofuse">Terms of Use</a></li>
+                        <li class="cb-ftr-lst"><a class="text-white" href="/product-blog/cricbuzz-mobile-apps-tv-ad-cricket-ka-keeda">Cricbuzz TV Ads</a></li>
+                    </ul>
+                </div>
+                <div class='cb-col-100 cb-col cb-ftr-cpyrght'>&copy; 2018 Cricbuzz.com, Times Internet Limited. All rights reserved | <a class='cb-ftr-cpyrght text-hvr-underline' href="http://timesofindia.indiatimes.com/" target="_blank">The Times of India</a> | <a href="http://navbharattimes.indiatimes.com/"
+                        target="_blank" class='cb-ftr-cpyrght text-hvr-underline'>Navbharat Times</a></div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        var script_tag = document.getElementsByTagName('script')[0];
+        (function() {
+            var cmin = document.createElement('script');
+            cmin.type = 'text/javascript';
+            cmin.async = true;
+            cmin.src = '//i.cricketcb.com/statics/site/js/cricbuzz.min.201809251005.js';
+            script_tag.parentNode.insertBefore(cmin, script_tag);
+        })();
+    </script><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PGNCT7"	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PGNCT7');
+    </script>
+    <script>
+        window.onerror = function(message, file, line) {
+            var sFormattedMessage = '[' + file + ' (' + line + ')] ' + message;
+            dataLayer.push({
+                'EventAction': "Application",
+                'EventLabel': sFormattedMessage,
+                'event': 'Exceptions'
+            });
+        }
+    </script>
+</body>
+
+</html>
