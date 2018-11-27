@@ -52,3 +52,5 @@ C. A. Firm Registration No. 005343 ( S !
 min_dif :  0.03025212  line  :  12
  min diff in function :  0.03025212
 
+
+i am editing now 
