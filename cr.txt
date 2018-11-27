@@ -54,3 +54,5 @@ min_dif :  0.03025212  line  :  12
 
 
 i am editing now 
+
+new way to edit & commit
